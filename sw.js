@@ -3,7 +3,6 @@ const assets = [
   '/',
   '/index.html',
   '/manifest.json'
-  // add more assets like CSS/JS/images later
 ];
 
 self.addEventListener('install', event => {
