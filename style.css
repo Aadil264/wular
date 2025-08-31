@@ -1,0 +1,5 @@
+body { font-family: sans-serif; margin:0; padding:0; }
+.page { display:none; }
+.page.active { display:block; }
+#splash { position:fixed; inset:0; background:red; color:white; font-size:2em; display:flex; justify-content:center; align-items:center; z-index:50; }
+button { cursor:pointer; padding:8px 16px; margin:2px; }
