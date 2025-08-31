@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WULAR Store SPA</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- PWA Manifest -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#b91c1c">
+</head>
+<body>
+
+<!-- Splash Screen -->
+<div id="splash">WULAR Store</div>
+
+<!-- Login/Signup Page -->
+<section id="authPage" class="page">
+  <div id="authFormContainer">
+    <h2>Welcome to WULAR Store</h2>
+    <div>
+      <button id="loginBtn">Login</button>
+      <button id="signupBtn">Sign Up</button>
+    </div>
+    <form id="authForm">
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</section>
+
+<!-- Homepage -->
+<section id="homePage" class="page">
+  <h2>Home Page</h2>
+  <div id="categories">
+    <div onclick="openCategory('grocery')">Grocery</div>
+    <div onclick="openCategory('fashion')">Fashion</div>
+    <div onclick="openCategory('medicine')">Medicine</div>
+    <div onclick="openCategory('home')">Home Essentials</div>
+  </div>
+</section>
+
+<!-- Category Pages -->
+<section id="grocery" class="page">
+  <h2>Grocery</h2>
+</section>
+<section id="fashion" class="page">
+  <h2>Fashion</h2>
+</section>
+<section id="medicine" class="page">
+  <h2>Medicine</h2>
+</section>
+<section id="home" class="page">
+  <h2>Home Essentials</h2>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 WULAR Store</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
